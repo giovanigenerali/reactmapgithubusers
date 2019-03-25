@@ -2,7 +2,7 @@
   "name": "reactmapgithubusers",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://giovanigenerali.github.io/reactmapgithubusers/",
+  "homepage": "https://reactmapgithubusers.herokuapp.com",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.18.0",
