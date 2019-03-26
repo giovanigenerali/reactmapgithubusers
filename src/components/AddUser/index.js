@@ -68,9 +68,13 @@ class AddUser extends Component {
         <h2>Adicionar Novo Usuário</h2>
         <form onSubmit={this.handleFormSubmit} className="form">
           <input
+            type="text"
             placeholder="Usuário do Github"
             value={userInput}
             onChange={this.handleInputChange}
+            // eslint-disable-next-line jsx-a11y/no-autofocus
+            autoFocus
+            required
           />
           <div className="buttons-container">
             <button type="button" onClick={this.handleHideModal}>

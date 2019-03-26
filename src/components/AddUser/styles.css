@@ -41,6 +41,10 @@
   border: 1px solid #ccc;
 }
 
+.form input:invalid {
+  border: 1px solid red;
+}
+
 .form .buttons-container {
   display: flex;
 }
