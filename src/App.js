@@ -1,4 +1,3 @@
-import dotenv from 'dotenv';
 import React, { Fragment } from 'react';
 import './config/ReactotronConfig';
 
@@ -12,8 +11,6 @@ import Routes from './routes';
 
 import 'font-awesome/css/font-awesome.css';
 import './styles.css';
-
-dotenv.config();
 
 const App = () => (
   <Provider store={store}>
