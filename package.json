@@ -5,7 +5,7 @@
   "homepage": "https://reactmapgithubusers.herokuapp.com",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "dotenv": "^7.0.0",
     "font-awesome": "^4.7.0",
     "prop-types": "^15.7.2",
